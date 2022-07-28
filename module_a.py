@@ -10,4 +10,5 @@ def multiply():
 
 
 
-os.rmdir("a.py")
+#os.rmdir("a.py")
+print(dir(locals()['__builtins__']))
